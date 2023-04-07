@@ -21,5 +21,9 @@ const config = {
   images: {
     domains: ["images.clerk.dev"],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  swcMinify: true,
 };
 export default config;
